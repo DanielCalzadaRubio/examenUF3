@@ -5,10 +5,11 @@ html, body {
 
 section {
     margin: 20px 5%;
+    text-align: justify;
 }
 
 /* Primer article */
-.article-1 {
+.contenidor-flex {
     display: flex;
 }
 
@@ -16,13 +17,16 @@ section {
     width: 50%;
 }
 
-.article-1 p {
-    text-align: justify;
+.contenidor-flex p {
     margin-right: 10vh;
 }
 
 .imatge img {
     width: 100%;
+}
+
+.article-1 li {
+    margin-left: 15px;
 }
 
 /* Segon Article */
