@@ -1,0 +1,28 @@
+html, body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+}
+
+section {
+    margin: 20px 5%;
+}
+
+/* Primer article */
+.article-1 {
+    display: flex;
+}
+
+.contenidor-article-1, .imatge {
+    width: 50%;
+}
+
+.article-1 p {
+    text-align: justify;
+    margin-right: 10vh;
+}
+
+.imatge img {
+    width: 100%;
+}
+
+/* Segon Article */
